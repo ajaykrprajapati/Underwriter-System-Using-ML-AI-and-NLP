@@ -1,0 +1,373 @@
+2018-02-28 18:46:09,763 INFO >> Start - Predection maker
+2018-02-28 18:46:09,763 INFO >> Start - Reading Mailbox
+2018-02-28 18:46:09,763 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:46:19,400 DEBUG Connection Established
+2018-02-28 18:46:20,142 DEBUG UnRead eMails [779]
+2018-02-28 18:46:20,507 DEBUG Urpredicted eMails [779]
+2018-02-28 18:46:20,507 DEBUG Fetching Email Data
+2018-02-28 18:46:21,518 DEBUG << End - Mail read
+2018-02-28 18:46:21,519 INFO >> Start Mail cleaning
+2018-02-28 18:46:21,520 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 18:46:21,571 INFO << End - Mail Cleaning
+2018-02-28 18:46:21,571 INFO >> Start Regex Processing
+2018-02-28 18:47:03,050 INFO >> Start PreProcess
+2018-02-28 18:47:03,051 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 18:47:03,051 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 18:47:03,094 INFO Standardize Weight
+2018-02-28 18:47:03,095 INFO Standardize Face amount
+2018-02-28 18:47:03,097 INFO << End - Preprocess
+2018-02-28 18:47:03,098 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 18:47:03,101 DEBUG Contents= ["trial_wali_id@outlook.com,female,33,Non-Tobacco,{'message', 'diagnosis', 'complications_NEG', 'Treatment', 'treatment', 'History', 'diagnosis_NEG', 'treatment_NEG', 'recurrence', 'tobacco use_NEG', 'lung cancer', 'Age', 'Date', 'Stage', 'Removal', 'None', 'cancer', 'class'}"]
+2018-02-28 18:47:03,102 INFO >> Start tokenize and remove punctuations
+2018-02-28 18:47:05,025 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '33', 'non', 'tobacco', '{', 'message', 'diagnosis', 'complications_neg', 'treatment', 'treatment', 'history', 'diagnosis_neg', 'treatment_neg', 'recurrence', 'tobacco', 'use_neg', 'lung', 'cancer', 'age', 'date', 'stage', 'removal', 'none', 'cancer', 'class', '}']]
+2018-02-28 18:47:05,028 INFO >> Start Prediction
+2018-02-28 18:47:05,081 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 18:47:05,086 INFO >> Start - Mail Append
+2018-02-28 18:47:05,086 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:47:12,198 DEBUG Connection Established
+2018-02-28 18:47:14,265 INFO << End - Mail Append
+2018-02-28 18:47:14,268 INFO << End - Predection maker
+2018-02-28 18:47:26,890 INFO >> Start - Predection maker
+2018-02-28 18:47:26,890 INFO >> Start - Reading Mailbox
+2018-02-28 18:47:26,890 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:47:30,741 DEBUG Connection Established
+2018-02-28 18:47:31,097 DEBUG UnRead eMails [779]
+2018-02-28 18:47:31,301 DEBUG Urpredicted eMails []
+2018-02-28 18:47:31,302 DEBUG Fetching Email Data
+2018-02-28 18:47:31,401 DEBUG << End - Mail read
+2018-02-28 18:56:54,383 INFO >> Start - Predection maker
+2018-02-28 18:56:54,383 INFO >> Start - Reading Mailbox
+2018-02-28 18:56:54,384 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:57:03,388 DEBUG Connection Established
+2018-02-28 18:57:03,738 DEBUG UnRead eMails [779]
+2018-02-28 18:57:03,956 DEBUG Urpredicted eMails [779]
+2018-02-28 18:57:03,956 DEBUG Fetching Email Data
+2018-02-28 18:57:04,438 DEBUG << End - Mail read
+2018-02-28 18:57:04,441 INFO >> Start Mail cleaning
+2018-02-28 18:57:04,441 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 18:57:04,501 INFO << End - Mail Cleaning
+2018-02-28 18:57:04,501 INFO >> Start Regex Processing
+2018-02-28 18:57:07,249 INFO >> Start PreProcess
+2018-02-28 18:57:07,250 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 18:57:07,250 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 18:57:07,255 INFO Standardize Weight
+2018-02-28 18:57:07,256 INFO Standardize Face amount
+2018-02-28 18:57:07,258 INFO << End - Preprocess
+2018-02-28 18:57:07,258 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 18:57:07,263 DEBUG Contents= ["trial_wali_id@outlook.com,female,33,Non-Tobacco,{'recurrence', 'Removal', 'Treatment', 'complications_NEG', 'Stage', 'diagnosis_NEG', 'message', 'Age', 'Date', 'History', 'diagnosis', 'treatment', 'lung cancer', 'tobacco use_NEG', 'cancer', 'class', 'treatment_NEG', 'None'}"]
+2018-02-28 18:57:07,263 INFO >> Start tokenize and remove punctuations
+2018-02-28 18:57:09,154 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '33', 'non', 'tobacco', '{', 'recurrence', 'removal', 'treatment', 'complications_neg', 'stage', 'diagnosis_neg', 'message', 'age', 'date', 'history', 'diagnosis', 'treatment', 'lung', 'cancer', 'tobacco', 'use_neg', 'cancer', 'class', 'treatment_neg', 'none', '}']]
+2018-02-28 18:57:09,157 INFO >> Start Prediction
+2018-02-28 18:57:09,162 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 18:57:09,167 INFO >> Start - Mail Append
+2018-02-28 18:57:09,167 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:57:10,339 DEBUG Connection Established
+2018-02-28 18:57:11,490 INFO << End - Mail Append
+2018-02-28 18:57:11,492 INFO << End - Predection maker
+2018-02-28 18:57:31,223 INFO >> Start - Predection maker
+2018-02-28 18:57:31,224 INFO >> Start - Reading Mailbox
+2018-02-28 18:57:31,224 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:57:32,895 DEBUG Connection Established
+2018-02-28 18:57:33,424 DEBUG UnRead eMails [779, 802, 804, 807]
+2018-02-28 18:57:33,784 DEBUG Urpredicted eMails [802, 804, 807]
+2018-02-28 18:57:33,784 DEBUG Fetching Email Data
+2018-02-28 18:57:34,699 DEBUG << End - Mail read
+2018-02-28 18:57:34,701 INFO >> Start Mail cleaning
+2018-02-28 18:57:34,701 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 18:57:34,758 INFO << End - Mail Cleaning
+2018-02-28 18:57:34,759 INFO >> Start Regex Processing
+2018-02-28 18:58:04,015 INFO >> Start PreProcess
+2018-02-28 18:58:04,015 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 18:58:04,015 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 18:58:04,021 INFO Standardize Weight
+2018-02-28 18:58:04,022 INFO Standardize Face amount
+2018-02-28 18:58:04,023 INFO << End - Preprocess
+2018-02-28 18:58:04,024 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 18:58:04,030 DEBUG Contents= ["trial_wali_id@outlook.com,female,22,Product Type: Term,TObacco,20000000.0,('', 'Lives', 'in XXXX XXXX, She is a US Citizen\\r', 'Does not own ', 'property', 'in US but does have retirement accounts\\r'),{'Does_NEG', 'smoker', 'None', 'family', 'retirement_NEG'},('good ', 'family', '')", "trial_wali_id@outlook.com,male,19,199lb,Non-Tobacco,{'liquor', 'given', 'Carrier', 'disc', 'Insomnia', 'week', 'history', 'Nexium', 'Reflux', 'search', 'lipids', 'canal', 'left shoulder pain', 'Family', '1-2 drinks', 'cervical pain', 'Table', 'Diclofenac', 'Lupus', 'stenosis', 'Screening colonoscopy', 'Rotator cuff tear', 'bulge', 'Mild', 'old injury', 'recovery', 'arthritis', 'surgery', 'Meloxicam', 'chronic pain', 'Agent'},('', 'Family', 'hx of RA in Mother and Sister. Sister with Lupus Nexium and 15 mg\\r')", "trial_wali_id@outlook.com,male, ,200lb,5 Feet,No Medication,{'None', 'chemotherapy', 'colon cancer', 'medications', 'family history', 'surgery', 'gall bladder', 'cancer', 'stage 3', 'complications'},('No significant ', 'family', 'history\\r')"]
+2018-02-28 18:58:04,030 INFO >> Start tokenize and remove punctuations
+2018-02-28 18:58:05,865 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '22', 'product', 'type', 'term', 'tobacco', '20000000', '0', 'life', 'xxxx', 'xxxx', 'u', 'citizen', '\\', 'r', 'property', 'u', 'retirement', 'account', '\\', 'r', '{', 'does_neg', 'smoker', 'none', 'family', 'retirement_neg', '}', 'good', 'family'], ['trial_wali_id', 'outlook', 'com', 'male', '19', '199lb', 'non', 'tobacco', '{', 'liquor', 'give', 'carrier', 'disc', 'insomnia', 'week', 'history', 'nexium', 'reflux', 'search', 'lipids', 'canal', 'left', 'shoulder', 'pain', 'family', '1', '2', 'drink', 'cervical', 'pain', 'table', 'diclofenac', 'lupus', 'stenosis', 'screen', 'colonoscopy', 'rotator', 'cuff', 'tear', 'bulge', 'mild', 'old', 'injury', 'recovery', 'arthritis', 'surgery', 'meloxicam', 'chronic', 'pain', 'agent', '}', 'family', 'hx', 'ra', 'mother', 'sister', 'sister', 'lupus', 'nexium', '15', 'mg', '\\', 'r'], ['trial_wali_id', 'outlook', 'com', 'male', '200lb', '5', 'foot', 'medication', '{', 'none', 'chemotherapy', 'colon', 'cancer', 'medication', 'family', 'history', 'surgery', 'gall', 'bladder', 'cancer', 'stage', '3', 'complication', '}', 'significant', 'family', 'history', '\\', 'r']]
+2018-02-28 18:58:05,868 INFO >> Start Prediction
+2018-02-28 18:58:05,874 INFO Offer= 0    [A]
+1    [A]
+2    [A]
+Name: result, dtype: object
+2018-02-28 18:58:05,880 INFO >> Start - Mail Append
+2018-02-28 18:58:05,880 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:58:12,472 DEBUG Connection Established
+2018-02-28 18:59:54,581 INFO >> Start - Predection maker
+2018-02-28 18:59:54,581 INFO >> Start - Reading Mailbox
+2018-02-28 18:59:54,581 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 18:59:55,620 DEBUG Connection Established
+2018-02-28 18:59:55,929 DEBUG UnRead eMails [779, 802, 804, 807]
+2018-02-28 18:59:56,139 DEBUG Urpredicted eMails [802, 804, 807]
+2018-02-28 18:59:56,139 DEBUG Fetching Email Data
+2018-02-28 18:59:56,785 DEBUG << End - Mail read
+2018-02-28 18:59:56,786 INFO >> Start Mail cleaning
+2018-02-28 18:59:56,787 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 18:59:56,844 INFO << End - Mail Cleaning
+2018-02-28 18:59:56,844 INFO >> Start Regex Processing
+2018-02-28 19:00:05,089 INFO >> Start PreProcess
+2018-02-28 19:00:05,089 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:00:05,089 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:00:05,095 INFO Standardize Weight
+2018-02-28 19:00:05,096 INFO Standardize Face amount
+2018-02-28 19:00:05,098 INFO << End - Preprocess
+2018-02-28 19:00:05,098 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:00:05,103 DEBUG Contents= ["trial_wali_id@outlook.com,female,22,Product Type: Term,TObacco,20000000.0,('', 'Lives', 'in XXXX XXXX, She is a US Citizen\\r', 'Does not own ', 'property', 'in US but does have retirement accounts\\r'),{'family', 'Does_NEG', 'smoker', 'None', 'retirement_NEG'},('good ', 'family', '')", "trial_wali_id@outlook.com,male,19,199lb,Non-Tobacco,{'surgery', 'Reflux', 'canal', 'Rotator cuff tear', 'disc', 'history', 'Insomnia', 'week', 'lipids', '1-2 drinks', 'Diclofenac', 'stenosis', 'old injury', 'Table', 'left shoulder pain', 'liquor', 'given', 'Family', 'arthritis', 'recovery', 'Nexium', 'Meloxicam', 'cervical pain', 'Lupus', 'Carrier', 'Mild', 'Screening colonoscopy', 'bulge', 'search', 'chronic pain', 'Agent'},('', 'Family', 'hx of RA in Mother and Sister. Sister with Lupus Nexium and 15 mg\\r')", "trial_wali_id@outlook.com,male, ,200lb,5 Feet,No Medication,{'surgery', 'gall bladder', 'stage 3', 'chemotherapy', 'medications', 'cancer', 'colon cancer', 'None', 'complications', 'family history'},('No significant ', 'family', 'history\\r')"]
+2018-02-28 19:00:05,103 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:00:06,995 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '22', 'product', 'type', 'term', 'tobacco', '20000000', '0', 'life', 'xxxx', 'xxxx', 'u', 'citizen', '\\', 'r', 'property', 'u', 'retirement', 'account', '\\', 'r', '{', 'family', 'does_neg', 'smoker', 'none', 'retirement_neg', '}', 'good', 'family'], ['trial_wali_id', 'outlook', 'com', 'male', '19', '199lb', 'non', 'tobacco', '{', 'surgery', 'reflux', 'canal', 'rotator', 'cuff', 'tear', 'disc', 'history', 'insomnia', 'week', 'lipid', '1', '2', 'drink', 'diclofenac', 'stenosis', 'old', 'injury', 'table', 'leave', 'shoulder', 'pain', 'liquor', 'give', 'family', 'arthritis', 'recovery', 'nexium', 'meloxicam', 'cervical', 'pain', 'lupus', 'carrier', 'mild', 'screen', 'colonoscopy', 'bulge', 'search', 'chronic', 'pain', 'agent', '}', 'family', 'hx', 'ra', 'mother', 'sister', 'sister', 'lupus', 'nexium', '15', 'mg', '\\', 'r'], ['trial_wali_id', 'outlook', 'com', 'male', '200lb', '5', 'foot', 'medication', '{', 'surgery', 'gall', 'bladder', 'stage', '3', 'chemotherapy', 'medication', 'cancer', 'colon', 'cancer', 'none', 'complication', 'family', 'history', '}', 'significant', 'family', 'history', '\\', 'r']]
+2018-02-28 19:00:06,998 INFO >> Start Prediction
+2018-02-28 19:00:07,005 INFO Offer= 0    [A]
+1    [A]
+2    [A]
+Name: result, dtype: object
+2018-02-28 19:00:07,010 INFO >> Start - Mail Append
+2018-02-28 19:00:07,010 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:00:07,940 DEBUG Connection Established
+2018-02-28 19:00:10,811 INFO << End - Mail Append
+2018-02-28 19:00:10,814 INFO << End - Predection maker
+2018-02-28 19:00:29,759 INFO >> Start - Predection maker
+2018-02-28 19:00:29,759 INFO >> Start - Reading Mailbox
+2018-02-28 19:00:29,759 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:00:40,549 DEBUG Connection Established
+2018-02-28 19:00:40,902 DEBUG UnRead eMails [779, 802, 804, 807]
+2018-02-28 19:00:41,158 DEBUG Urpredicted eMails []
+2018-02-28 19:00:41,158 DEBUG Fetching Email Data
+2018-02-28 19:00:41,245 DEBUG << End - Mail read
+2018-02-28 19:00:50,628 INFO >> Start - Predection maker
+2018-02-28 19:00:50,628 INFO >> Start - Reading Mailbox
+2018-02-28 19:00:50,629 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:00:52,772 DEBUG Connection Established
+2018-02-28 19:00:53,237 DEBUG UnRead eMails [779, 802, 804]
+2018-02-28 19:02:35,024 INFO >> Start - Predection maker
+2018-02-28 19:02:35,024 INFO >> Start - Reading Mailbox
+2018-02-28 19:02:35,024 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:02:35,845 DEBUG Connection Established
+2018-02-28 19:02:36,288 DEBUG UnRead eMails [779, 802, 804]
+2018-02-28 19:03:44,895 INFO >> Start - Predection maker
+2018-02-28 19:03:44,895 INFO >> Start - Reading Mailbox
+2018-02-28 19:03:44,895 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:03:46,288 DEBUG Connection Established
+2018-02-28 19:03:46,640 DEBUG UnRead eMails [779, 802, 804]
+2018-02-28 19:06:00,406 INFO >> Start - Predection maker
+2018-02-28 19:06:00,406 INFO >> Start - Reading Mailbox
+2018-02-28 19:06:00,406 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:06:18,663 DEBUG Connection Established
+2018-02-28 19:06:18,979 DEBUG UnRead eMails [779, 802, 804]
+2018-02-28 19:06:19,191 DEBUG Urpredicted eMails []
+2018-02-28 19:06:19,191 DEBUG Fetching Email Data
+2018-02-28 19:06:19,252 DEBUG << End - Mail read
+2018-02-28 19:07:52,015 INFO >> Start - Predection maker
+2018-02-28 19:07:52,015 INFO >> Start - Reading Mailbox
+2018-02-28 19:07:52,015 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:07:52,969 DEBUG Connection Established
+2018-02-28 19:07:53,394 DEBUG UnRead eMails [779, 802, 804]
+2018-02-28 19:07:53,606 DEBUG Urpredicted eMails []
+2018-02-28 19:07:53,606 DEBUG Fetching Email Data
+2018-02-28 19:07:53,672 DEBUG << End - Mail read
+2018-02-28 19:08:22,895 INFO >> Start - Predection maker
+2018-02-28 19:08:22,896 INFO >> Start - Reading Mailbox
+2018-02-28 19:08:22,896 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:08:24,528 DEBUG Connection Established
+2018-02-28 19:08:24,852 DEBUG UnRead eMails [779, 802, 803]
+2018-02-28 19:08:26,172 DEBUG Urpredicted eMails [803]
+2018-02-28 19:08:26,172 DEBUG Fetching Email Data
+2018-02-28 19:08:26,862 DEBUG << End - Mail read
+2018-02-28 19:08:26,864 INFO >> Start Mail cleaning
+2018-02-28 19:08:26,864 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:08:26,921 INFO << End - Mail Cleaning
+2018-02-28 19:08:26,922 INFO >> Start Regex Processing
+2018-02-28 19:08:32,845 INFO >> Start PreProcess
+2018-02-28 19:08:32,846 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:08:32,846 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:08:32,853 INFO Standardize Weight
+2018-02-28 19:08:32,855 INFO Standardize Face amount
+2018-02-28 19:08:32,857 INFO << End - Preprocess
+2018-02-28 19:08:32,857 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:08:32,864 DEBUG Contents= ["trial_wali_id@outlook.com,female,55,Product Type: Term,Non-Tobacco,TermYear:20year,{'coverage', 'External', 'Rule', 'testing', 'medication', 'standard', 'Non-Smoker', 'request', 'health history', 'year', 'triglycerides', 'Auto'}"]
+2018-02-28 19:08:32,864 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:08:34,787 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '55', 'product', 'type', 'term', 'non', 'tobacco', 'termyear', '20year', '{', 'coverage', 'external', 'rule', 'test', 'medication', 'standard', 'non', 'smoker', 'request', 'health', 'history', 'year', 'triglycerides', 'auto', '}']]
+2018-02-28 19:08:34,790 INFO >> Start Prediction
+2018-02-28 19:08:34,794 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:08:34,923 INFO >> Start - Mail Append
+2018-02-28 19:08:34,924 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:08:39,482 DEBUG Connection Established
+2018-02-28 19:08:41,513 INFO << End - Mail Append
+2018-02-28 19:08:41,514 INFO << End - Predection maker
+2018-02-28 19:14:42,748 INFO >> Start - Predection maker
+2018-02-28 19:14:42,748 INFO >> Start - Reading Mailbox
+2018-02-28 19:14:42,748 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:14:43,668 DEBUG Connection Established
+2018-02-28 19:14:44,000 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:14:44,224 DEBUG Urpredicted eMails [806]
+2018-02-28 19:14:44,225 DEBUG Fetching Email Data
+2018-02-28 19:14:44,702 DEBUG << End - Mail read
+2018-02-28 19:14:44,703 INFO >> Start Mail cleaning
+2018-02-28 19:14:44,703 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:14:44,762 INFO << End - Mail Cleaning
+2018-02-28 19:14:44,762 INFO >> Start Regex Processing
+2018-02-28 19:14:48,881 INFO >> Start PreProcess
+2018-02-28 19:14:48,881 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:14:48,881 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:14:48,886 INFO Standardize Weight
+2018-02-28 19:14:48,888 INFO Standardize Face amount
+2018-02-28 19:14:48,890 INFO << End - Preprocess
+2018-02-28 19:14:48,890 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:14:48,894 DEBUG Contents= ["trial_wali_id@outlook.com,male,97,TObacco,50000$,{'smoker', 'diagnosed', 'Amount', 'Face', 'Blood', 'medications', 'Heart', 'Cholesterol', 'Warfarin', 'Digoxin', 'Atorvastatin', 'Diagnosed'}"]
+2018-02-28 19:14:48,894 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:14:50,717 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'male', '97', 'tobacco', '50000', '{', 'smoker', 'diagnose', 'amount', 'face', 'blood', 'medication', 'heart', 'cholesterol', 'warfarin', 'digoxin', 'atorvastatin', 'diagnose', '}']]
+2018-02-28 19:14:50,720 INFO >> Start Prediction
+2018-02-28 19:14:50,724 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:14:50,728 INFO >> Start - Mail Append
+2018-02-28 19:14:50,728 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:14:56,369 DEBUG Connection Established
+2018-02-28 19:14:57,070 INFO << End - Mail Append
+2018-02-28 19:14:57,072 INFO << End - Predection maker
+2018-02-28 19:16:02,365 INFO >> Start - Predection maker
+2018-02-28 19:16:02,365 INFO >> Start - Reading Mailbox
+2018-02-28 19:16:02,365 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:16:13,267 DEBUG Connection Established
+2018-02-28 19:16:13,657 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:16:13,916 DEBUG Urpredicted eMails [806]
+2018-02-28 19:16:13,916 DEBUG Fetching Email Data
+2018-02-28 19:16:14,460 DEBUG << End - Mail read
+2018-02-28 19:16:14,462 INFO >> Start Mail cleaning
+2018-02-28 19:16:14,462 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:16:14,521 INFO << End - Mail Cleaning
+2018-02-28 19:16:14,521 INFO >> Start Regex Processing
+2018-02-28 19:16:17,213 INFO >> Start PreProcess
+2018-02-28 19:16:17,213 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:16:17,213 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:16:17,218 INFO Standardize Weight
+2018-02-28 19:16:17,220 INFO Standardize Face amount
+2018-02-28 19:16:17,221 INFO << End - Preprocess
+2018-02-28 19:16:17,222 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:16:17,227 DEBUG Contents= ["trial_wali_id@outlook.com,male,97,TObacco,50000$,{'Atorvastatin', 'medications', 'Cholesterol', 'Face', 'Heart', 'Blood', 'smoker', 'Diagnosed', 'Warfarin', 'Digoxin', 'diagnosed', 'Amount'}"]
+2018-02-28 19:16:17,227 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:16:19,116 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'male', '97', 'tobacco', '50000', '{', 'atorvastatin', 'medication', 'cholesterol', 'face', 'heart', 'blood', 'smoker', 'diagnose', 'warfarin', 'digoxin', 'diagnose', 'amount', '}']]
+2018-02-28 19:16:19,119 INFO >> Start Prediction
+2018-02-28 19:16:19,123 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:16:19,127 INFO >> Start - Mail Append
+2018-02-28 19:16:19,128 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:16:26,865 DEBUG Connection Established
+2018-02-28 19:16:28,906 INFO << End - Mail Append
+2018-02-28 19:16:28,907 INFO << End - Predection maker
+2018-02-28 19:17:58,217 INFO >> Start - Predection maker
+2018-02-28 19:17:58,217 INFO >> Start - Reading Mailbox
+2018-02-28 19:17:58,217 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:18:00,176 DEBUG Connection Established
+2018-02-28 19:18:00,487 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:18:00,694 DEBUG Urpredicted eMails []
+2018-02-28 19:18:00,694 DEBUG Fetching Email Data
+2018-02-28 19:18:00,784 DEBUG << End - Mail read
+2018-02-28 19:18:14,419 INFO >> Start - Predection maker
+2018-02-28 19:18:14,419 INFO >> Start - Reading Mailbox
+2018-02-28 19:18:14,419 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:18:15,731 DEBUG Connection Established
+2018-02-28 19:18:16,165 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:18:16,368 DEBUG Urpredicted eMails [806]
+2018-02-28 19:18:16,368 DEBUG Fetching Email Data
+2018-02-28 19:18:18,279 DEBUG << End - Mail read
+2018-02-28 19:18:18,281 INFO >> Start Mail cleaning
+2018-02-28 19:18:18,282 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:18:18,356 INFO << End - Mail Cleaning
+2018-02-28 19:18:18,356 INFO >> Start Regex Processing
+2018-02-28 19:18:21,149 INFO >> Start PreProcess
+2018-02-28 19:18:21,150 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:18:21,150 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:18:21,155 INFO Standardize Weight
+2018-02-28 19:18:21,157 INFO Standardize Face amount
+2018-02-28 19:18:21,159 INFO << End - Preprocess
+2018-02-28 19:18:21,159 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:18:21,164 DEBUG Contents= ["trial_wali_id@outlook.com,male,97,TObacco,50000$,{'Face', 'smoker', 'Heart', 'Warfarin', 'Cholesterol', 'Diagnosed', 'diagnosed', 'Blood', 'medications', 'Digoxin', 'Atorvastatin', 'Amount'}"]
+2018-02-28 19:18:21,164 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:18:22,974 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'male', '97', 'tobacco', '50000', '{', 'face', 'smoker', 'heart', 'warfarin', 'cholesterol', 'diagnose', 'diagnosed', 'blood', 'medication', 'digoxin', 'atorvastatin', 'amount', '}']]
+2018-02-28 19:18:22,977 INFO >> Start Prediction
+2018-02-28 19:18:22,981 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:18:22,985 INFO >> Start - Mail Append
+2018-02-28 19:18:22,985 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:18:24,814 DEBUG Connection Established
+2018-02-28 19:18:26,004 INFO << End - Mail Append
+2018-02-28 19:18:26,005 INFO << End - Predection maker
+2018-02-28 19:19:17,766 INFO >> Start - Predection maker
+2018-02-28 19:19:17,766 INFO >> Start - Reading Mailbox
+2018-02-28 19:19:17,766 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:19:24,740 DEBUG Connection Established
+2018-02-28 19:19:25,154 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:19:25,376 DEBUG Urpredicted eMails [806]
+2018-02-28 19:19:25,376 DEBUG Fetching Email Data
+2018-02-28 19:19:28,269 DEBUG << End - Mail read
+2018-02-28 19:19:28,271 INFO >> Start Mail cleaning
+2018-02-28 19:19:28,271 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:19:28,329 INFO << End - Mail Cleaning
+2018-02-28 19:19:28,330 INFO >> Start Regex Processing
+2018-02-28 19:19:31,232 INFO >> Start PreProcess
+2018-02-28 19:19:31,232 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:19:31,232 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:19:31,237 INFO Standardize Weight
+2018-02-28 19:19:31,239 INFO Standardize Face amount
+2018-02-28 19:19:31,240 INFO << End - Preprocess
+2018-02-28 19:19:31,241 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:19:31,246 DEBUG Contents= ["trial_wali_id@outlook.com,male,97,TObacco,50000$,{'Digoxin', 'smoker', 'Heart', 'diagnosed', 'Blood', 'Face', 'medications', 'Cholesterol', 'Warfarin', 'Atorvastatin', 'Amount', 'Diagnosed'}"]
+2018-02-28 19:19:31,247 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:19:33,112 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'male', '97', 'tobacco', '50000', '{', 'digoxin', 'smoker', 'heart', 'diagnose', 'blood', 'face', 'medication', 'cholesterol', 'warfarin', 'atorvastatin', 'amount', 'diagnose', '}']]
+2018-02-28 19:19:33,115 INFO >> Start Prediction
+2018-02-28 19:19:33,119 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:19:33,124 INFO >> Start - Mail Append
+2018-02-28 19:19:33,124 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:19:36,843 DEBUG Connection Established
+2018-02-28 19:19:37,723 INFO << End - Mail Append
+2018-02-28 19:19:37,725 INFO << End - Predection maker
+2018-02-28 19:21:18,720 INFO >> Start - Predection maker
+2018-02-28 19:21:18,720 INFO >> Start - Reading Mailbox
+2018-02-28 19:21:18,720 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:21:20,102 DEBUG Connection Established
+2018-02-28 19:21:21,047 DEBUG UnRead eMails [779, 802, 803, 806]
+2018-02-28 19:21:21,307 DEBUG Urpredicted eMails [803]
+2018-02-28 19:21:21,308 DEBUG Fetching Email Data
+2018-02-28 19:21:23,309 DEBUG << End - Mail read
+2018-02-28 19:21:23,310 INFO >> Start Mail cleaning
+2018-02-28 19:21:23,310 INFO >> Start - Mail Cleaning - Remove signature, Offer Standardize etc
+2018-02-28 19:21:23,364 INFO << End - Mail Cleaning
+2018-02-28 19:21:23,364 INFO >> Start Regex Processing
+2018-02-28 19:21:26,187 INFO >> Start PreProcess
+2018-02-28 19:21:26,187 INFO >> Start - Preprocessing. Standardize Face amount, Weight... etc
+2018-02-28 19:21:26,187 DEBUG Opening -Data/regexProcessed.csv
+2018-02-28 19:21:26,192 INFO Standardize Weight
+2018-02-28 19:21:26,194 INFO Standardize Face amount
+2018-02-28 19:21:26,195 INFO << End - Preprocess
+2018-02-28 19:21:26,196 DEBUG Read CSVData/PProcessed.csv
+2018-02-28 19:21:26,201 DEBUG Contents= ["trial_wali_id@outlook.com,female,55,Product Type: Term,Non-Tobacco,TermYear:20year,{'coverage', 'Non-Smoker', 'Rule', 'standard', 'External', 'Auto', 'triglycerides', 'request', 'medication', 'health history', 'year', 'testing'}"]
+2018-02-28 19:21:26,201 INFO >> Start tokenize and remove punctuations
+2018-02-28 19:21:27,998 DEBUG Features= [['trial_wali_id', 'outlook', 'com', 'female', '55', 'product', 'type', 'term', 'non', 'tobacco', 'termyear', '20year', '{', 'coverage', 'non', 'smoker', 'rule', 'standard', 'external', 'auto', 'triglyceride', 'request', 'medication', 'health', 'history', 'year', 'test', '}']]
+2018-02-28 19:21:28,001 INFO >> Start Prediction
+2018-02-28 19:21:28,005 INFO Offer= 0    [A]
+Name: result, dtype: object
+2018-02-28 19:21:28,009 INFO >> Start - Mail Append
+2018-02-28 19:21:28,009 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:21:29,046 DEBUG Connection Established
+2018-02-28 19:21:30,053 INFO << End - Mail Append
+2018-02-28 19:21:30,055 INFO << End - Predection maker
+2018-02-28 19:22:56,749 INFO >> Start - Predection maker
+2018-02-28 19:22:56,749 INFO >> Start - Reading Mailbox
+2018-02-28 19:22:56,749 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:22:57,635 DEBUG Connection Established
+2018-02-28 19:22:58,024 DEBUG UnRead eMails [779, 802, 803]
+2018-02-28 19:22:58,265 DEBUG Urpredicted eMails []
+2018-02-28 19:22:58,266 DEBUG Fetching Email Data
+2018-02-28 19:22:58,393 DEBUG << End - Mail read
+2018-02-28 19:23:37,364 INFO >> Start - Predection maker
+2018-02-28 19:23:37,365 INFO >> Start - Reading Mailbox
+2018-02-28 19:23:37,365 INFO Connect to mailbox - trial_wali_id@outlook.com
+2018-02-28 19:23:44,070 DEBUG Connection Established
+2018-02-28 19:23:44,970 DEBUG UnRead eMails [779, 802, 803]
+2018-02-28 19:23:45,231 DEBUG Urpredicted eMails []
+2018-02-28 19:23:45,231 DEBUG Fetching Email Data
+2018-02-28 19:23:45,349 DEBUG << End - Mail read

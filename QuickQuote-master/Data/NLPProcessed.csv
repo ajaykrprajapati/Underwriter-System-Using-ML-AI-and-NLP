@@ -1,0 +1,18 @@
+Contents,Offer_noise_free,recepientemail,Gender,Age(years),Product Type,Weight,Height,Habit,Face Amount,Medication,Property,Medical Data,Family,ColumnA,Lemmitize,result
+" Subject: [External] Quick quote request - FMA
+Auto forwarded by a Rule
+
+Female, age 55 (age nearest XX)
+Non-Smoker
+20 year term coverage
+
+
+Client received standard NS in mid-XXXX due to cholesterol of XXX, ratio
+X.X.  Her LDL was XXX but she has responded well to medication and her LDL
+on the most recent lab done with doctor (July XXXX) was at XX, with a total
+cholesterol of XXX, and HDL at XX.  Her triglycerides on the most recent
+testing were elevated at XXX.  Her health history is otherwise unremarkable.
+
+
+
+Thank you,",,trial_wali_id@outlook.com,female,55,Product Type: Term,,,Non-Tobacco,TermYear:20year,,,"{'coverage', 'Non-Smoker', 'Rule', 'standard', 'External', 'Auto', 'triglycerides', 'request', 'medication', 'health history', 'year', 'testing'}",,"trial_wali_id@outlook.com,female,55,Product Type: Term,Non-Tobacco,TermYear:20year,{'coverage', 'Non-Smoker', 'Rule', 'standard', 'External', 'Auto', 'triglycerides', 'request', 'medication', 'health history', 'year', 'testing'}","['trial_wali_id', 'outlook', 'com', 'female', '55', 'product', 'type', 'term', 'non', 'tobacco', 'termyear', '20year', '{', 'coverage', 'non', 'smoker', 'rule', 'standard', 'external', 'auto', 'triglyceride', 'request', 'medication', 'health', 'history', 'year', 'test', '}']",['A']
